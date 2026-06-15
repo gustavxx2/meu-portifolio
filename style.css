@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #00000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navegação */
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color:#003366;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Seções */
+section {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Imagem */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
+    color: #003366;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: #003366;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
